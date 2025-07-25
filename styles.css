@@ -410,4 +410,46 @@ footer {
     .banner-image image {
         width: full;
     }
+    .plant-cards {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .plant-lover {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plant-lover-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .trusted-badge {
+        display: none;
+    }
+
+    .deal-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deal-card {
+        width: 80%;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form input {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form button {
+        width: 80%;
+        border-radius: 5px;
+    }
+
 }
