@@ -367,3 +367,47 @@ footer {
     border-top: 1px solid #333;
     padding-top: 20px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .menu ul {
+        flex-direction: row;
+        text-align: center;
+        gap: 4ex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .cart-icon {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .banner-content {
+        padding-right: 0;
+    }
+
+    
+    .banner-image {
+        margin-top: 30px;
+        padding-right: 0;
+    }
+    .banner-image image {
+        width: full;
+    }
+}
