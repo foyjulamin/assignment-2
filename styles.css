@@ -452,4 +452,14 @@ footer {
         border-radius: 5px;
     }
 
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo,
+    .footer-links,
+    .footer-social {
+        margin-bottom: 30px;
+    }
 }
