@@ -137,3 +137,233 @@ nav {
     padding: 20px;
     border-radius: 10px;
 }
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e55473;
+}
+
+.card button {
+    background-color: #e55473;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Plant Lover Section */
+.plant-lover {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #fef6f6;
+}
+
+.plant-lover-image {
+    flex: 1;
+    position: relative;
+}
+
+.plant-lover-image img {
+    max-width: 100%;
+}
+
+.trusted-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.plant-lover-content {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.plant-lover-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.plant-lover-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plant-lover-content li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Latest Deal Section */
+.latest-deal {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.latest-deal h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.latest-deal p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deal-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.deal-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.deal-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.deal-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.deal-card p {
+    font-size: 18px;
+}
+
+/* Join Section */
+.join {
+    padding: 100px 0;
+    background-image: url('assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #333;
+}
+
+.join-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.join-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form input {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-form button {
+    background-color: #e55473;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #111010;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-social img {
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
